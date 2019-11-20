@@ -1,7 +1,6 @@
 /**
  * 找出数组中只出现一次的元素
  * 要求：线性时间
- * 思路：
  */
 class Solution {
     public int singleNumber(int[] nums) {
