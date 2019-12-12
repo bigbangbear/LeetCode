@@ -11,13 +11,13 @@
 class Solution {
     public ListNode reverseBetween(ListNode head, int m, int n) {
         List<ListNode> nodes = new ArrayList<ListNode>();
-        while (head != null){
+        while (head != null) {
             nodes.add(head);
             head = head.next;
         }
-        while(m < n) {
-            ListNode left = nodes.get(m-1);
-            ListNode right = nodes.get(n-1);
+        while (m < n) {
+            ListNode left = nodes.get(m - 1);
+            ListNode right = nodes.get(n - 1);
             int temp = left.val;
             left.val = right.val;
             right.val = temp;

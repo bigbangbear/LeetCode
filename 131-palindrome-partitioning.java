@@ -4,7 +4,6 @@
  */
 public class Solution {
 
-
     public List<List<String>> partition(String s) {
         List<List<String>> result = new ArrayList<>();
         if (s == null || s.isEmpty()) {

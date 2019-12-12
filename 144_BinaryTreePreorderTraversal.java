@@ -10,55 +10,55 @@ Given binary tree {1,#,2,3},
 return [1,2,3].
 */
 
-//�ݹ�ķ�ʽ
+//�ݹ�ķ�ʽ
 public class Solution {
-    
-    public List<Integer> preorder(TreeNode root, List<Integer> result){
-        
-        if(root != null){
+
+    public List<Integer> preorder(TreeNode root, List<Integer> result) {
+
+        if (root != null) {
             result.add(root.val);
             preorder(root.left, result);
             preorder(root.right, result);
         }
         return result;
     }
-    
+
     public List<Integer> preorderTraversal(TreeNode root) {
-        
-        List<Integer> result = new  ArrayList<Integer>();
-        
+
+        List<Integer> result = new ArrayList<Integer>();
+
         return preorder(root, result);
     }
 }
 
-//�ǵݹ�ķ�ʽ
+//�ǵݹ�ķ�ʽ
 public class Solution {
-    
+
     public List<Integer> preorderTraversal(TreeNode root) {
-        
+
         List<Integer> result = new ArrayList<Integer>();
-        
+
         TreeNode p = root;
         Stack<TreeNode> stack = new Stack<TreeNode>();
-        
-        while(p != null  || !stack.empty()){
-            
-            if(p != null){
+
+        while (p != null || !stack.empty()) {
+
+            if (p != null) {
                 result.add(p.val);
                 stack.push(p);
                 p = p.left;
-            }else{
+            } else {
                 p = stack.pop().right;
-                if(p.right != null){
+                if (p.right != null) {
                     p = p.right;
-                }else{
+                } else {
                     p = null;
                 }
             }
-            
+
         }
-        
+
         return result;
-        
+
     }
 }

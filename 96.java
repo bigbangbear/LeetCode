@@ -13,6 +13,7 @@
  *    重要的概念：最优子结构、边界、状态转移公式
  *
  */
+
 /**
  * 递归的解法
  * 不是通过 DP 性能还是很差
@@ -20,17 +21,16 @@
  */
 class Solution {
     public int numTrees(int n) {
-        if (n == 0 || n == 1){
+        if (n == 0 || n == 1) {
             return 1;
         }
         int sum = 0;
-        for(int i=1; i<=n; i++){
-            sum += (numTrees(i - 1)+ numTrees(n-1));
+        for (int i = 1; i <= n; i++) {
+            sum += (numTrees(i - 1) + numTrees(n - 1));
         }
         return sum;
     }
 }
-
 
 /**
  * 看了答案的 DP 解法，通过空间换取时间，性能提高许多。
@@ -38,12 +38,12 @@ class Solution {
  */
 class Solution {
     public int numTrees(int n) {
-        int [] dp = new int[n + 1];
+        int[] dp = new int[n + 1];
         dp[0] = 1;
         dp[1] = 1;
-        for(int index=2; index<=n; index++){
-            for(int root=0; root<index; root++){
-                dp[index] += dp[root] * dp[index - root -1];
+        for (int index = 2; index <= n; index++) {
+            for (int root = 0; root < index; root++) {
+                dp[index] += dp[root] * dp[index - root - 1];
             }
         }
         return dp[n];

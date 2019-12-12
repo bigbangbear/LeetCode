@@ -6,6 +6,7 @@
 class Solution {
 
     private List<List<Integer>> result = new ArrayList<List<Integer>>();
+
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         Arrays.sort(nums);
         List<Integer> list = new ArrayList<Integer>();
@@ -13,15 +14,15 @@ class Solution {
         return result;
     }
 
-    private void add(int[] nums, int index, List<Integer> list){
+    private void add(int[] nums, int index, List<Integer> list) {
         if (index <= nums.length) {
             this.result.add(list);
         }
-        for (int i=index; i<nums.length; i++){
+        for (int i = index; i < nums.length; i++) {
             list.add(nums[i]);
-            add(nums, i +1, new ArrayList<Integer>(list));
-            list.remove(list.size()-1);
-            while(i < nums.length -1 && nums[i] == nums[i+1]){
+            add(nums, i + 1, new ArrayList<Integer>(list));
+            list.remove(list.size() - 1);
+            while (i < nums.length - 1 && nums[i] == nums[i + 1]) {
                 i++;
             }
         }

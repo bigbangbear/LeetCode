@@ -4,9 +4,9 @@
  */
 class Solution {
     public int findPeakElement(int[] nums) {
-        for(int i=0; i<nums.length; i++){
+        for (int i = 0; i < nums.length; i++) {
             int num = nums[i];
-            if (num > getLeftElement(nums, i) && num > getRightElement(nums, i)){
+            if (num > getLeftElement(nums, i) && num > getRightElement(nums, i)) {
                 return i;
             }
         }
@@ -15,21 +15,21 @@ class Solution {
 
     /**
      * 返回左边的元素，最边上返回最小值
-    public int getLeftElement(int[] nums, int index){
-        if(index == 0){
-            return Integer.MIN_VALUE;
-        } else{
-            return nums[index-1];
-        }
-    }
-    /**
+     public int getLeftElement(int[] nums, int index){
+     if(index == 0){
+     return Integer.MIN_VALUE;
+     } else{
+     return nums[index-1];
+     }
+     }
+     /**
      * 返回右边的元素，最边上返回最小值
      */
-    public int getRightElement(int[] nums, int index){
-        if(index >= nums.length - 1){
+    public int getRightElement(int[] nums, int index) {
+        if (index >= nums.length - 1) {
             return Integer.MIN_VALUE;
-        } else{
-            return nums[index+1];
+        } else {
+            return nums[index + 1];
         }
     }
 

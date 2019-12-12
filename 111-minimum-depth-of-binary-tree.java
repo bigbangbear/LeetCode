@@ -10,27 +10,26 @@
  */
 class Solution {
     private int minDepth = Integer.MAX_VALUE;
+
     public int minDepth(TreeNode root) {
-        if (root == null){
+        if (root == null) {
             return 0;
         }
         getLeafDepth(root, 1);
         return minDepth;
     }
 
-
-    public void getLeafDepth(TreeNode root,int depath){
-        if (minDepth < depath || root == null){
+    public void getLeafDepth(TreeNode root, int depath) {
+        if (minDepth < depath || root == null) {
             return;
         }
-        if (root.left == null && root.right == null){
+        if (root.left == null && root.right == null) {
             minDepth = Math.min(minDepth, depath);
-        }else{
-            depath ++;
+        } else {
+            depath++;
             getLeafDepth(root.left, depath);
             getLeafDepth(root.right, depath);
         }
     }
-
 
 }

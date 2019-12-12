@@ -8,7 +8,7 @@ class Solution {
         Set<Integer> xPoints = new HashSet<Integer>();
         Set<Integer> yPoints = new HashSet<Integer>();
         for (int i = 0; i < matrix.length; i++) {
-            for (int j= 0; j< matrix[0].length; j++) {
+            for (int j = 0; j < matrix[0].length; j++) {
                 if (matrix[i][j] == 0) {
                     xPoints.add(i);
                     yPoints.add(j);
@@ -16,14 +16,14 @@ class Solution {
             }
         }
 
-        for (Integer index: xPoints) {
-            for(int j=0; j<matrix[0].length; j++) {
+        for (Integer index : xPoints) {
+            for (int j = 0; j < matrix[0].length; j++) {
                 matrix[index][j] = 0;
             }
         }
 
-        for (Integer index: yPoints) {
-            for(int j=0; j<matrix.length; j++) {
+        for (Integer index : yPoints) {
+            for (int j = 0; j < matrix.length; j++) {
                 matrix[j][index] = 0;
             }
         }

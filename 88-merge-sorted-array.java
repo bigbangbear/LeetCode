@@ -8,17 +8,17 @@
  */
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
-        if (n == 0){
+        if (n == 0) {
             return;
         }
-        int last = m + n -1;
+        int last = m + n - 1;
         int index = m - 1;
-        for (int i=n-1; i>=0; ){
-            if (getNums(nums2, i) >= getNums(nums1, index)){
+        for (int i = n - 1; i >= 0; ) {
+            if (getNums(nums2, i) >= getNums(nums1, index)) {
                 nums1[last] = nums2[i];
                 last--;
                 i--;
-            }else{
+            } else {
                 nums1[last] = nums1[index];
                 index--;
                 last--;
@@ -28,9 +28,9 @@ class Solution {
     }
 
     public int getNums(int[] nums, int index) {
-        if (index < 0 ){
+        if (index < 0) {
             return Integer.MIN_VALUE;
-        }else{
+        } else {
             return nums[index];
         }
     }

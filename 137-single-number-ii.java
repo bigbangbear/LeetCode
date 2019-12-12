@@ -5,12 +5,12 @@
 class Solution {
     public int singleNumber(int[] nums) {
         Map<Integer, Integer> numMap = new HashMap<>();
-        for (int i=0; i<nums.length; i++) {
+        for (int i = 0; i < nums.length; i++) {
             int num = nums[i];
             if (numMap.containsKey(num)) {
                 int size = numMap.get(num);
                 numMap.put(num, size + 1);
-            }else {
+            } else {
                 numMap.put(num, 1);
             }
         }

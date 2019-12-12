@@ -14,10 +14,10 @@ class Solution {
             // 则next 往后找到不相同的数字赋值到当前指针位置
             if (nums[flag] == nums[next]) {
                 next++;
-                while(next < nums.length){
+                while (next < nums.length) {
                     if (nums[next] == nums[flag]) {
                         next++;
-                    }else{
+                    } else {
                         break;
                     }
                 }

@@ -16,25 +16,25 @@ class Solution {
         ListNode sort = head;
         ListNode unsort = head.next;
         sort.next = null;
-        while (unsort != null){
+        while (unsort != null) {
             ListNode current = unsort;
             unsort = unsort.next;
 
             boolean isInsert = false;
             ListNode pre = null;
             ListNode next = sort;
-            while(next != null) {
+            while (next != null) {
                 if (current.val <= next.val) {
                     if (pre == null) {
                         current.next = sort;
                         sort = current;
-                    }else{
+                    } else {
                         pre.next = current;
                         current.next = next;
-                    } 
+                    }
                     isInsert = true;
                     break;
-                }else{
+                } else {
                     pre = next;
                     next = next.next;
                 }

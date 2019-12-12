@@ -22,16 +22,16 @@ class Solution {
 
             for (int i = 0; i < nodes.size(); i++) {
                 TreeNode node = null;
-                if (isLeft){
+                if (isLeft) {
                     node = nodes.get(i);
-                }else{
+                } else {
                     node = nodes.get(nodes.size() - 1 - i);
                 }
                 tmp.add(node.val);
-                if (node.left != null){
+                if (node.left != null) {
                     tmpNodes.add(nodes.get(i).left);
                 }
-                if (node.right != null){
+                if (node.right != null) {
                     tmpNodes.add(nodes.get(i).right);
                 }
             }

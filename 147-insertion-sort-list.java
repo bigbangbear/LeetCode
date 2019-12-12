@@ -10,7 +10,7 @@
 class Solution {
     public ListNode insertionSortList(ListNode head) {
 
-        if (head == null || head.next == null){
+        if (head == null || head.next == null) {
             return head;
         }
 
@@ -20,7 +20,7 @@ class Solution {
         sort.next = null;
 
         // 遍历后面未排序的节点插入到前面已排序的节点之后
-        while(unsort != null){
+        while (unsort != null) {
             ListNode current = unsort;
             unsort = unsort.next;
 
@@ -28,25 +28,25 @@ class Solution {
             ListNode next = sort;
             boolean isInsert = false;
             while (next != null) {
-                if(current.val <= next.val){
+                if (current.val <= next.val) {
                     // 小于等于当前元素，插入当前元素之前
-                    if(pre == null){
+                    if (pre == null) {
                         current.next = next;
                         sort = current;
-                    }else{
+                    } else {
                         pre.next = current;
                         current.next = next;
                     }
                     isInsert = true;
                     break;
-                }else {
+                } else {
                     // 大于当前元素，指针后移
                     pre = next;
                     next = next.next;
                 }
             }
             // 比当前已排队列的元素都大，插入到末尾
-            if (isInsert == false){
+            if (isInsert == false) {
                 pre.next = current;
                 current.next = null;
             }

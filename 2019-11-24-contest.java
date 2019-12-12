@@ -4,9 +4,9 @@
  */
 class Solution {
     public int minTimeToVisitAllPoints(int[][] points) {
-        if (points == null || points.length == 0){
+        if (points == null || points.length == 0) {
             return 0;
-        } 
+        }
         int sum = 0;
         for (int i = 0; i < points.length - 1; i++) {
             sum += minTimeToVisit(points[i][0], points[i][1], points[i + 1][0], points[i + 1][1]);
@@ -14,7 +14,7 @@ class Solution {
         return sum;
     }
 
-    private int minTimeToVisit(int xPoint1, int yPoint1, int xPoint2, int yPoint2){
+    private int minTimeToVisit(int xPoint1, int yPoint1, int xPoint2, int yPoint2) {
         int x = Math.abs(xPoint1 - xPoint2);
         int y = Math.abs(yPoint1 - yPoint2);
         int max = Math.max(x, y);
@@ -31,30 +31,30 @@ class Solution {
 
         Set<String> servers = new HashSet<String>();
         // 计算水平方向上能够通信的计算机的坐标
-        for (int i = 0; i < grid.length; i++){
+        for (int i = 0; i < grid.length; i++) {
             int sum = 0;
-            for (int j = 0; j < grid[i].length && sum <= 1; j++){
+            for (int j = 0; j < grid[i].length && sum <= 1; j++) {
                 sum += grid[i][j];
             }
             if (sum > 1) {
-                for (int j = 0; j < grid[i].length; j++){
+                for (int j = 0; j < grid[i].length; j++) {
                     if (grid[i][j] == 1) {
-                        servers.add("x="+i + "y=" + j);
+                        servers.add("x=" + i + "y=" + j);
                     }
                 }
             }
         }
 
         // 计算竖直方向上能够通信的计算机的坐标
-        for (int i = 0; i < grid[0].length; i++){
+        for (int i = 0; i < grid[0].length; i++) {
             int sum = 0;
-            for (int j = 0; j < grid.length && sum <= 1; j++){
+            for (int j = 0; j < grid.length && sum <= 1; j++) {
                 sum += grid[j][i];
             }
             if (sum > 1) {
-                for (int j = 0; j < grid.length; j++){
+                for (int j = 0; j < grid.length; j++) {
                     if (grid[j][i] == 1) {
-                        servers.add("x="+j + "y=" + i);
+                        servers.add("x=" + j + "y=" + i);
                     }
                 }
             }
@@ -72,15 +72,15 @@ class Solution {
 class Solution {
     public List<List<String>> suggestedProducts(String[] products, String searchWord) {
         Arrays.sort(products);
-        
+
         List<List<String>> result = new ArrayList<>();
-        for (int i=0; i<searchWord.length(); i++) {
+        for (int i = 0; i < searchWord.length(); i++) {
             List<String> match = new ArrayList<>();
-            String word = searchWord.substring(0, i+1);
+            String word = searchWord.substring(0, i + 1);
             int size = 0;
-            for(String s: products) {
-                if (size < 3 && s.length() >= word.length()){
-                    if(word.equals(s.substring(0, i+1))){
+            for (String s : products) {
+                if (size < 3 && s.length() >= word.length()) {
+                    if (word.equals(s.substring(0, i + 1))) {
                         match.add(s);
                         size++;
                     }

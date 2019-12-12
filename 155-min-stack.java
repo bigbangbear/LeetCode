@@ -9,6 +9,7 @@
 class MinStack {
 
     private List<Integer> stack;
+
     /** initialize your data structure here. */
     public MinStack() {
         this.stack = new ArrayList<Integer>();
@@ -31,7 +32,7 @@ class MinStack {
 
     public int getMin() {
         int min = Integer.MAX_VALUE;
-        for (int i =0; i<this.stack.size(); i++){
+        for (int i = 0; i < this.stack.size(); i++) {
             min = Math.min(min, this.stack.get(i));
         }
         return min;

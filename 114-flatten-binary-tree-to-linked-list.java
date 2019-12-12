@@ -17,8 +17,8 @@ class Solution {
         List<TreeNode> list = new ArrayList<TreeNode>();
         scan(root, list);
 
-        for(int i=1; i<list.size(); i++){
-            TreeNode pre = list.get(i-1);
+        for (int i = 1; i < list.size(); i++) {
+            TreeNode pre = list.get(i - 1);
             TreeNode current = list.get(i);
             pre.right = current;
             pre.left = null;
@@ -27,7 +27,7 @@ class Solution {
     }
 
     private void scan(TreeNode root, List<TreeNode> list) {
-        if (root != null){
+        if (root != null) {
             list.add(root);
 
             scan(root.left, list);

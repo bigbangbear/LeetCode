@@ -12,20 +12,20 @@ class Solution {
         return result;
     }
 
-    private void combine(int[] candidates,int current, int target, List<Integer> path) {
+    private void combine(int[] candidates, int current, int target, List<Integer> path) {
         if (target == 0) {
             result.add(new ArrayList(path));
             return;
         }
-        if (target < 0 ) {
+        if (target < 0) {
             return;
         }
-        for (int i=current; i<candidates.length; i++) {
+        for (int i = current; i < candidates.length; i++) {
             path.add(candidates[i]);
             // 传递的是当前指针
-            combine(candidates, i+1, target - candidates[i], path);
-            path.remove(path.size()-1);
-            while(i+1 < candidates.length && candidates[i] == candidates[i+1]){
+            combine(candidates, i + 1, target - candidates[i], path);
+            path.remove(path.size() - 1);
+            while (i + 1 < candidates.length && candidates[i] == candidates[i + 1]) {
                 i++;
             }
         }

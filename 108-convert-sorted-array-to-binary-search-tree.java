@@ -12,22 +12,22 @@
 class Solution {
     public TreeNode sortedArrayToBST(int[] nums) {
 
-        if (nums == null || nums.length == 0){
+        if (nums == null || nums.length == 0) {
             return null;
         }
         return midTree(nums, 0, nums.length - 1);
 
     }
 
-    private TreeNode midTree(int[] nums, int start, int end){
-        if (start > end){
+    private TreeNode midTree(int[] nums, int start, int end) {
+        if (start > end) {
             return null;
         }
 
         int mid = (start + end) / 2;
         TreeNode node = new TreeNode(nums[mid]);
-        TreeNode left = midTree(nums, start, mid-1);
-        TreeNode right = midTree(nums, mid+1, end);
+        TreeNode left = midTree(nums, start, mid - 1);
+        TreeNode right = midTree(nums, mid + 1, end);
         node.left = left;
         node.right = right;
         return node;

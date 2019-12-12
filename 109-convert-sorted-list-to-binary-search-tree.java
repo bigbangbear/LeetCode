@@ -6,6 +6,7 @@
  *     ListNode(int x) { val = x; }
  * }
  */
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -21,7 +22,7 @@
 class Solution {
     public TreeNode sortedListToBST(ListNode head) {
         TreeNode root = null;
-        while(head != null) {
+        while (head != null) {
             root = addNode(root, head.val);
             head = head.next;
         }
@@ -34,7 +35,7 @@ class Solution {
             return node;
         }
         // 找到对应的位置插入
-        insert(root, root, node); 
+        insert(root, root, node);
         // 转化为平衡二叉树
         return bst(root);
     }
@@ -42,7 +43,7 @@ class Solution {
     private int depth(TreeNode root, int depth) {
         if (root == null) {
             return depth;
-        } 
+        }
         int left = depth(root.left, depth + 1);
         int right = depth(root.right, depth + 1);
         return Math.max(left, right);
@@ -54,22 +55,22 @@ class Solution {
         }
         int left = depth(root.left, 0);
         int right = depth(root.right, 0);
-        boolean isBst = Math.abs( left - right) <= 1;
-        if (!isBst){
-            if (left < right){
+        boolean isBst = Math.abs(left - right) <= 1;
+        if (!isBst) {
+            if (left < right) {
                 TreeNode newRoot = root.right;
                 TreeNode leftNode = root.right;
                 root.right = null;
-                while(leftNode.left != null){
+                while (leftNode.left != null) {
                     leftNode = leftNode.left;
                 }
                 leftNode.left = root;
                 root = newRoot;
-            }else {
+            } else {
                 TreeNode newRoot = root.left;
                 TreeNode rightNode = root.left;
                 root.left = null;
-                while(rightNode.right != null){
+                while (rightNode.right != null) {
                     rightNode = rightNode.right;
                 }
                 rightNode.right = root;
@@ -81,18 +82,18 @@ class Solution {
         return root;
     }
 
-    private void insert(TreeNode root,TreeNode parent, TreeNode node) {
+    private void insert(TreeNode root, TreeNode parent, TreeNode node) {
         if (node.val < root.val) {
-            if (root.left == null){
+            if (root.left == null) {
                 root.left = node;
-            }else{
-                insert(root.left, root,  node);
+            } else {
+                insert(root.left, root, node);
             }
-        }else {
+        } else {
             if (root.right == null) {
                 root.right = node;
-            }else{
-                insert(root.right,root,  node);
+            } else {
+                insert(root.right, root, node);
             }
         }
     }
