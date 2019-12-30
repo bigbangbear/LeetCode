@@ -1,3 +1,6 @@
+/**
+ * 输出一个和为 0 的数组
+ */
 class Solution {
     public int[] sumZero(int n) {
         int[] result = new int[n]; 
