@@ -4,14 +4,14 @@ import java.util.Map;
 
 class Solution {
 
-    private final Map<String, Integer> map = new HashMap<>();
+    private int[][] dp;
     /**
      * 思路：从字符串尾部开始比较
      */
     public int minDistance(String word1, String word2) {
         int index1 = word1 == null ? 0 : word1.length();
         int index2 = word2 == null ? 0 : word2.length();
-
+        dp = new int[index1 + 1][index2 + 1];
         return change(word1, word2, index1 - 1, index2 - 1);
     }
 
@@ -22,15 +22,14 @@ class Solution {
         if (index1 < 0 || index2 < 0) {
             return Math.max(index1, index2) + 1;
         }
-        String key = "index1 = " + index1 + "index2 = " + index2;
-        if (map.containsKey(key)){
-            return map.get(key);
+        if (dp[index1][index2] != 0){
+            return dp[index1][index2];
         }
         char c1 = word1.charAt(index1);
         char c2 = word2.charAt(index2);
         if (c1 == c2) {
             int min = change(word1, word2, index1 - 1, index2 - 1);
-            setMin(key, min);
+            setMin(index1, index2, min);
             return min;
         }else{
             // 插入 删除 替换
@@ -38,17 +37,16 @@ class Solution {
             int delete = change(word1, word2, index1 - 1, index2);
             int replace = change(word1, word2, index1 - 1, index2 -1);
             int min = Math.min(insert, Math.min(delete, replace)) + 1;
-            setMin(key, min);
+            setMin(index1, index2, min);
             return min;
         }
     }
 
-    private void setMin(String key, int size) {
-        if (map.get(key) != null) {
-            int min = map.get(key);
-            map.put(key, Math.min(min, size));
+    private void setMin(int index1, int index2, int size) {
+        if (dp[index1][index2] == 0) {
+            dp[index1][index2] = size;
         }else {
-            map.put(key, size);
+            dp[index1][index2] = Math.min(size, dp[index1][index2]);
         }
     }
 }
