@@ -2,6 +2,7 @@ class Solution {
     public int findNumberOfLIS(int[] nums) {
         List<Integer> len = new ArrayList<>();
         List<Integer> size = new ArrayList<>();
+    
         for (int i = 0; i < nums.length; i++) {
             List<Integer> max = getMaxLen(nums, len, nums[i]);
             if (max.isEmpty()) {
