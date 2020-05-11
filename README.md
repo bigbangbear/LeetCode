@@ -4,7 +4,7 @@
 
 ### 1. Pattern: Sliding window，滑动窗口类型
 
-* [ ] 53 Maximum Sum Subarray of Size K (easy) 
+* [x] 53 Maximum Sum Subarray of Size K (easy) 2020.5.11 
 
 * [x] 209 Smallest Subarray with a given sum (easy) 2020.5.11
 
