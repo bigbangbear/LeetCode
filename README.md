@@ -176,7 +176,7 @@
 
 * [ ] Smallest Number Range (Hard)
 
-* [ ] ### \14. Pattern: 0/1 Knapsack (Dynamic Programming)，0/1背包类型
+### 14. Pattern: 0/1 Knapsack (Dynamic Programming)，0/1背包类型
 
 * [ ] 0/1 Knapsack (medium)
 
