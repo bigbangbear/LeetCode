@@ -8,7 +8,7 @@
 
 * [x] 209 Smallest Subarray with a given sum (easy) 2020.5.11
 
-* [ ] Longest Substring with K Distinct Characters (medium)
+* [ ] 340 Longest Substring with K Distinct Characters (medium)
 
 * [ ] Fruits into Baskets (medium)
 
@@ -176,7 +176,7 @@
 
 * [ ] Smallest Number Range (Hard)
 
-### 14. Pattern: 0/1 Knapsack (Dynamic Programming)，0/1背包类型
+] ### \14. Pattern: 0/1 Knapsack (Dynamic Programming)，0/1背包类型
 
 * [ ] 0/1 Knapsack (medium)
 
@@ -197,4 +197,5 @@
 * [ ] All Tasks Scheduling Orders (hard)
 
 * [ ] Alien Dictionary (hard)
+
 
