@@ -8,7 +8,7 @@
 
 * [x] 209 Smallest Subarray with a given sum (easy) 2020.5.11
 
-* [ ] 340 Longest Substring with K Distinct Characters (medium)
+* [x] 340 Longest Substring with K Distinct Characters (medium) 2020.5.12
 
 * [ ] Fruits into Baskets (medium)
 
