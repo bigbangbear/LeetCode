@@ -10,7 +10,7 @@
 
 * [x] 340 Longest Substring with K Distinct Characters (medium) 2020.5.12
 
-* [ ] Fruits into Baskets (medium)
+* [ ] 904 Fruits into Baskets (medium)
 
 * [ ] No-repeat Substring (hard)
 
