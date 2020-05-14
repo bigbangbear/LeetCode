@@ -12,7 +12,7 @@
 
 * [x] 904 Fruits into Baskets (medium) 2020.5.13
 
-* [ ] No-repeat Substring (hard)
+* [x] No-repeat Substring (hard) 2020.5.14
 
 * [ ] Longest Substring with Same Letters after Replacement (hard)
 
