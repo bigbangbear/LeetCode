@@ -20,7 +20,7 @@
 
 ### 2. Pattern: two points, 双指针类型
 
-* [ ] Pair with Target Sum (easy)
+* [x] Pair with Target Sum (easy)
 
 * [ ] Remove Duplicates (easy)
 
