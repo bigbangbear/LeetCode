@@ -22,7 +22,7 @@
 
 * [x] Pair with Target Sum (easy)
 
-* [ ] Remove Duplicates (easy)
+* [x] Remove Duplicates (easy)
 
 * [ ] Squaring a Sorted Array (easy)
 
