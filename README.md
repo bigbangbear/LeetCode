@@ -24,25 +24,25 @@
 
 * [x] Remove Duplicates (easy)
 
-* [ ] Squaring a Sorted Array (easy)
+* [x] Squaring a Sorted Array (easy)
 
-* [ ] Triplet Sum to Zero (medium)
+* [ ] 15. Triplet Sum to Zero (medium)
 
-* [ ] Triplet Sum Close to Target (medium)
+* [x] 16. Triplet Sum Close to Target (medium)
 
 * [ ] Triplets with Smaller Sum (medium)
 
-* [ ] Subarrays with Product Less than a Target (medium)
+* [x] 713. Subarrays with Product Less than a Target (medium)
 
-* [ ] Dutch National Flag Problem (medium)
+* [ ] 75. Dutch National Flag Problem (medium)
 
 ### 3. Pattern: Fast & Slow pointers, 快慢指针类型
 
-* [ ] LinkedList Cycle (easy)
+* [x] 141. LinkedList Cycle (easy)
 
-* [ ] Start of LinkedList Cycle (medium)
+* [x] 142. Start of LinkedList Cycle (medium)
 
-* [ ] Happy Number (medium)
+* [x] 202. Happy Number (medium)
 
 * [ ] Middle of the LinkedList (easy)
 

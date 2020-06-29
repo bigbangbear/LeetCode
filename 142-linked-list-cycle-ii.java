@@ -15,4 +15,10 @@ public class Solution {
         }
         return null;
     }
+
+
+    public ListNode detectCycle(ListNode head) {
+
+        ListNode current = head;
+    }
 }
