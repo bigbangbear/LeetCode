@@ -44,7 +44,7 @@
 
 * [x] 202. Happy Number (medium)
 
-* [ ] Middle of the LinkedList (easy)
+* [ ] 876. Middle of the LinkedList (easy)
 
 ### 4. Pattern: Merge Intervals，区间合并类型
 
