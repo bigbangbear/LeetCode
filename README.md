@@ -48,9 +48,9 @@
 
 ### 4. Pattern: Merge Intervals，区间合并类型
 
-* [ ] 56. Merge Intervals (medium)
+* [x] 56. Merge Intervals (medium)
 
-* [ ] Insert Interval (medium)
+* [x] 57. Insert Interval (medium)
 
 * [ ] Intervals Intersection (medium)
 
