@@ -58,7 +58,7 @@
 
 ### 5. Pattern: Cyclic Sort，循环排序
 
-* [ ] Cyclic Sort (easy)
+* [x] 141. Cyclic Sort (easy)
 
 * [ ] Find the Missing Number (easy)
 

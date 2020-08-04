@@ -15,27 +15,15 @@ public class Solution {
             return false;
         }
         ListNode last = head;
-        ListNode pre = null;
-        if (last.next != null && last.next.next != null) {
-            pre = last.next.next;
-        }else{
-            return false;
-        }
+        ListNode pre = head.next;
         while (last != pre) {
-            if (pre == null || pre.next == null || pre.next.next == null) {
+            if (pre == null || pre.next == null ) {
                 return false;
             }
             pre = pre.next.next;
             last = last.next;
         }
 
-        if (last == null || pre == null) {
-            return false;
-        }else{
-            return true;
-        }
-
-
-
+        return true;
     }
 }
