@@ -60,7 +60,7 @@
 
 * [x] 141. Cyclic Sort (easy)
 
-* [ ] Find the Missing Number (easy)
+* [ ] 268. Find the Missing Number (easy)
 
 * [ ] Find all Missing Numbers (easy)
 
