@@ -52,7 +52,7 @@
 
 * [x] 57. Insert Interval (medium)
 
-* [ ] 986. Intervals Intersection (medium)
+* [x] 986. Intervals Intersection (medium)
 
 * [ ] Conflicting Appointments (medium)
 
