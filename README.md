@@ -62,7 +62,7 @@
 
 * [x] 268. Find the Missing Number (easy)
 
-* [ ] Find all Missing Numbers (easy)
+* [x] 448. Find all Missing Numbers (easy)
 
 * [ ] Find the Duplicate Number (easy)
 
