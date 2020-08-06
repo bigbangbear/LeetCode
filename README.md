@@ -64,7 +64,7 @@
 
 * [x] 448. Find all Missing Numbers (easy)
 
-* [ ] Find the Duplicate Number (easy)
+* [x] 287. Find the Duplicate Number (easy)
 
 * [ ] Find all Duplicate Numbers (easy)
 
