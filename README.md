@@ -70,7 +70,7 @@
 
 ### 6. Pattern: In-place Reversal of a LinkedList，链表翻转
 
-* [ ] Reverse a LinkedList (easy)
+* [x] 206. Reverse a LinkedList (easy)
 
 * [ ] Reverse a Sub-list (medium)
 
@@ -197,5 +197,6 @@
 * [ ] All Tasks Scheduling Orders (hard)
 
 * [ ] Alien Dictionary (hard)
+
 
 
