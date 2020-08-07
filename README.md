@@ -66,7 +66,7 @@
 
 * [x] 287. Find the Duplicate Number (easy)
 
-* [ ] Find all Duplicate Numbers (easy)
+* [x] 442. Find all Duplicate Numbers (easy)
 
 ### 6. Pattern: In-place Reversal of a LinkedList，链表翻转
 
