@@ -72,7 +72,7 @@
 
 * [x] 206. Reverse a LinkedList (easy)
 
-* [ ] Reverse a Sub-list (medium)
+* [ ] 92. Reverse a Sub-list (medium)
 
 * [ ] Reverse every K-element Sub-list (medium)
 

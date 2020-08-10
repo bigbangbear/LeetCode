@@ -26,4 +26,5 @@ class Solution {
         }
         return nodes.get(0);
     }
+
 }
