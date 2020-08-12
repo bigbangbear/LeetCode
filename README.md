@@ -72,9 +72,9 @@
 
 * [x] 206. Reverse a LinkedList (easy)
 
-* [ ] 92. Reverse a Sub-list (medium)
+* [x] 92. Reverse a Sub-list (medium)
 
-* [ ] Reverse every K-element Sub-list (medium)
+* [x] 25. Reverse every K-element Sub-list (medium)
 
 ### 7. Pattern: Tree Breadth First Search，树上的BFS
 
