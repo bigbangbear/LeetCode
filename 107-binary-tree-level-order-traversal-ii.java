@@ -28,20 +28,22 @@ class Solution {
         list.add(root);
         while(list.size() > 0) {
             List<Integer> nums = new ArrayList<Integer>();
+            List<TreeNode> children = new ArrayList<>();
             for (int i = 0; i<list.size(); i++) {
                 TreeNode node = list.get(i);
                 nums.add(node.val);
                 if (node.left != null) {
-                    list.add(node.left);
+                    children.add(node.left);
                 }
                 if (node.right != null) {
-                    list.add(node.right);
+                    children.add(node.right);
                 }
+                System.out.print(nums.get(i));
             }
-            for (int i = 0; i < nums.size(); i++) {
-                list.remove(0);
-            }
+            list = children;
+
             result.add(nums);
+            System.out.println("nums" + nums.toString());
         }
         List<List<Integer>> out = new ArrayList<>();
         for (int i = 0; i < result.size(); i ++) {
