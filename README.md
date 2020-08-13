@@ -78,9 +78,9 @@
 
 ### 7. Pattern: Tree Breadth First Search，树上的BFS
 
-* [ ] Binary Tree Level Order Traversal (easy)
+* [x] 102. Binary Tree Level Order Traversal (easy)
 
-* [ ] Reverse Level Order Traversal (easy)
+* [ ] 107. Reverse Level Order Traversal (easy)
 
 * [ ] Zigzag Traversal (medium)
 
