@@ -80,9 +80,9 @@
 
 * [x] 102. Binary Tree Level Order Traversal (easy)
 
-* [ ] 107. Reverse Level Order Traversal (easy)
+* [x] 107. Reverse Level Order Traversal (easy)
 
-* [ ] Zigzag Traversal (medium)
+* [x] 103. Zigzag Traversal (medium)
 
 * [ ] Level Averages in a Binary Tree (easy)
 
