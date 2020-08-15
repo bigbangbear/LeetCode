@@ -84,13 +84,13 @@
 
 * [x] 103. Zigzag Traversal (medium)
 
-* [ ] Level Averages in a Binary Tree (easy)
+* [x] 637. Level Averages in a Binary Tree (easy)
 
-* [ ] Minimum Depth of a Binary Tree (easy)
+* [x] 111. Minimum Depth of a Binary Tree (easy)
 
 * [ ] Level Order Successor (easy)
 
-* [ ] Connect Level Order Siblings (medium)
+* [x] 116. Connect Level Order Siblings (medium)
 
 ### 8. Pattern: Tree Depth First Search，树上的DFS
 
