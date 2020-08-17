@@ -94,11 +94,11 @@
 
 ### 8. Pattern: Tree Depth First Search，树上的DFS
 
-* [ ] 112. Binary Tree Path Sum (easy)
+* [x] 112. Binary Tree Path Sum (easy)
 
-* [ ] All Paths for a Sum (medium)
+* [x] 113. All Paths for a Sum (medium)
 
-* [ ] Sum of Path Numbers (medium)
+* [ ] 129. Sum of Path Numbers (medium)
 
 * [ ] Path With Given Sequence (medium)
 
