@@ -98,7 +98,7 @@
 
 * [x] 113. All Paths for a Sum (medium)
 
-* [ ] 129. Sum of Path Numbers (medium)
+* [x] 129. Sum of Path Numbers (medium)
 
 * [ ] Path With Given Sequence (medium)
 
@@ -106,7 +106,7 @@
 
 ### 9. Pattern: Two Heaps，双堆类型
 
-* [ ] Find the Median of a Number Stream (medium)
+* [x] 295. Find the Median of a Number Stream (medium)
 
 * [ ] Sliding Window Median (hard)
 
