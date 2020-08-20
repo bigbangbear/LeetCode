@@ -1,3 +1,11 @@
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.PriorityQueue;
+import java.util.Comparator;
+
+
+
 class MedianFinder {
 
 
@@ -33,3 +41,43 @@ class MedianFinder {
  * obj.addNum(num);
  * double param_2 = obj.findMedian();
  */
+class MedianFinder1 {
+
+
+    /** initialize your data structure here. */
+    PriorityQueue<Integer> big = new PriorityQueue<Integer>();
+    PriorityQueue<Integer> small = new PriorityQueue<Integer>(new Comparator<Integer>(){
+        @Override
+        public int compare(Integer a, Integer b) {
+            return b - a;
+        }
+
+    });
+
+    public MedianFinder1() {
+
+    }
+
+    public void addNum(int num) {
+        small.add(num);
+        int max = small.poll();
+        big.add(max);
+        if (big.size() > small.size()) {
+            int tmp = big.poll();
+            small.add(tmp);
+        }
+    }
+
+    public double findMedian() {
+        if (big.isEmpty() && small.isEmpty()) {
+            return 0;
+        }
+        if ((big.size() + small.size()) % 2 == 0) {
+            return (big.peek() + small.peek())/ 2.0
+        }else {
+            return small.peek();
+        }
+    }
+
+
+}
