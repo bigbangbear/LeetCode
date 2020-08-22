@@ -108,9 +108,9 @@
 
 * [x] 295. Find the Median of a Number Stream (medium)
 
-* [ ] 480. Sliding Window Median (hard)
+* [x] 480. Sliding Window Median (hard)
 
-* [ ] Maximize Capital (hard)
+* [x] 502. Maximize Capital (hard)
 
 ### 10. Pattern: Subsets，子集类型，一般都是使用多重DFS
 
