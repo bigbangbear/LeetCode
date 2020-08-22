@@ -108,7 +108,7 @@
 
 * [x] 295. Find the Median of a Number Stream (medium)
 
-* [ ] Sliding Window Median (hard)
+* [ ] 480. Sliding Window Median (hard)
 
 * [ ] Maximize Capital (hard)
 
