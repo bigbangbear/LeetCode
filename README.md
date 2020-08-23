@@ -114,7 +114,7 @@
 
 ### 10. Pattern: Subsets，子集类型，一般都是使用多重DFS
 
-* [ ] Subsets (easy)
+* [ ] 78. Subsets (easy)
 
 * [ ] Subsets With Duplicates (easy)
 
