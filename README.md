@@ -114,11 +114,11 @@
 
 ### 10. Pattern: Subsets，子集类型，一般都是使用多重DFS
 
-* [ ] 78. Subsets (easy)
+* [x] 78. Subsets (easy)
 
-* [ ] Subsets With Duplicates (easy)
+* [x] 90. Subsets With Duplicates (easy)
 
-* [ ] Permutations (medium)
+* [ ] 46. Permutations (medium)
 
 * [ ] String Permutations by changing case (medium)
 
