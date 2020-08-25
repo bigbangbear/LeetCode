@@ -120,9 +120,9 @@
 
 * [x] 46. Permutations (medium)
 
-* [ ] 784. String Permutations by changing case (medium)
+* [x] 784. String Permutations by changing case (medium)
 
-* [ ] Balanced Parentheses (hard)
+* [ ] 20. Balanced Parentheses (hard)
 
 * [ ] Unique Generalized Abbreviations (hard)
 
