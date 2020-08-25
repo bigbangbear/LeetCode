@@ -118,9 +118,9 @@
 
 * [x] 90. Subsets With Duplicates (easy)
 
-* [ ] 46. Permutations (medium)
+* [x] 46. Permutations (medium)
 
-* [ ] String Permutations by changing case (medium)
+* [ ] 784. String Permutations by changing case (medium)
 
 * [ ] Balanced Parentheses (hard)
 
