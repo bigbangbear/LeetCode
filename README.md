@@ -122,13 +122,13 @@
 
 * [x] 784. String Permutations by changing case (medium)
 
-* [ ] 20. Balanced Parentheses (hard)
+* [x] 20. Balanced Parentheses (hard)
 
-* [ ] Unique Generalized Abbreviations (hard)
+* [ ] 320. Unique Generalized Abbreviations (hard)
 
 ### 11. Pattern: Modified Binary Search，改造过的二分
 
-* [ ] Order-agnostic Binary Search (easy)
+* [ ] 897. Order-agnostic Binary Search (easy)
 
 * [ ] Ceiling of a Number (medium)
 
