@@ -128,11 +128,11 @@
 
 ### 11. Pattern: Modified Binary Search，改造过的二分
 
-* [ ] 897. Order-agnostic Binary Search (easy)
+* [x] 897. Order-agnostic Binary Search (easy)
 
 * [ ] Ceiling of a Number (medium)
 
-* [ ] Next Letter (medium)
+* [ ] 744. Next Letter (medium)
 
 * [ ] Number Range (medium)
 
