@@ -134,11 +134,11 @@
 
 * [x] 744. Next Letter (medium)
 
-* [  ] 201. Number Range (medium)
+* [x] 201. Number Range (medium)
 
 * [ ] Search in a Sorted Infinite Array (medium)
 
-* [ ] Minimum Difference Element (medium)
+* [ ] 1200. Minimum Difference Element (medium)
 
 * [ ] Bitonic Array Maximum (easy)
 
