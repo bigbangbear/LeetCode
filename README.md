@@ -132,9 +132,9 @@
 
 * [ ] Ceiling of a Number (medium)
 
-* [ ] 744. Next Letter (medium)
+* [x] 744. Next Letter (medium)
 
-* [ ] Number Range (medium)
+* [  ] 201. Number Range (medium)
 
 * [ ] Search in a Sorted Infinite Array (medium)
 

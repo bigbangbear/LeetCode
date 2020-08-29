@@ -1,6 +1,6 @@
 import java.lang.Math;
 class Solution {
-    public char nextGreatestLetter(char[] letters, char target) {
+    public char nextGreatestLetter1(char[] letters, char target) {
 
         int size = 26;
         int min = Integer.MAX_VALUE;
@@ -21,4 +21,6 @@ class Solution {
         return minChar;
 
     }
+
+
 }
