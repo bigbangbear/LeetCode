@@ -144,7 +144,7 @@
 
 ### 12. Pattern: Top ‘K’ Elements，前K个系列
 
-* [ ] 347. Top ‘K’ Numbers (easy)
+* [x] 347. Top ‘K’ Numbers (easy)
 
 * [ ] Kth Smallest Number (easy)
 
