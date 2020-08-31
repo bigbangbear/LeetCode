@@ -138,13 +138,13 @@
 
 * [ ] Search in a Sorted Infinite Array (medium)
 
-* [ ] 1200. Minimum Difference Element (medium)
+* [x] 1200. Minimum Difference Element (medium)
 
 * [ ] Bitonic Array Maximum (easy)
 
 ### 12. Pattern: Top ‘K’ Elements，前K个系列
 
-* [ ] Top ‘K’ Numbers (easy)
+* [ ] 347. Top ‘K’ Numbers (easy)
 
 * [ ] Kth Smallest Number (easy)
 
