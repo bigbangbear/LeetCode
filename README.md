@@ -146,9 +146,9 @@
 
 * [x] 347. Top ‘K’ Numbers (easy)
 
-* [ ] Kth Smallest Number (easy)
+* [x] 215. Kth Smallest Number (easy)
 
-* [ ] ‘K’ Closest Points to the Origin (easy)
+* [ ] 973. ‘K’ Closest Points to the Origin (easy)
 
 * [ ] Connect Ropes (easy)
 
