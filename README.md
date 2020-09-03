@@ -154,7 +154,7 @@
 
 * [ ] Top ‘K’ Frequent Numbers (medium)
 
-* [ ] 451. Frequency Sort (medium)
+* [x] 451. Frequency Sort (medium)
 
 * [ ] Kth Largest Number in a Stream (medium)
 
