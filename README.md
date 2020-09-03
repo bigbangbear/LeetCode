@@ -148,13 +148,13 @@
 
 * [x] 215. Kth Smallest Number (easy)
 
-* [ ] 973. ‘K’ Closest Points to the Origin (easy)
+* [x] 973. ‘K’ Closest Points to the Origin (easy)
 
 * [ ] Connect Ropes (easy)
 
 * [ ] Top ‘K’ Frequent Numbers (medium)
 
-* [ ] Frequency Sort (medium)
+* [ ] 451. Frequency Sort (medium)
 
 * [ ] Kth Largest Number in a Stream (medium)
 
