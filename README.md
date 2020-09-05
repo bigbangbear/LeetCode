@@ -156,7 +156,7 @@
 
 * [x] 451. Frequency Sort (medium)
 
-* [ ] Kth Largest Number in a Stream (medium)
+* [ ] 703. Kth Largest Number in a Stream (medium)
 
 * [ ] ‘K’ Closest Numbers (medium)
 
