@@ -156,7 +156,7 @@
 
 * [x] 451. Frequency Sort (medium)
 
-* [ ] 703. Kth Largest Number in a Stream (medium)
+* [x] 703. Kth Largest Number in a Stream (medium)
 
 * [ ] ‘K’ Closest Numbers (medium)
 
@@ -168,7 +168,7 @@
 
 ### 13. Pattern: K-way merge，多路归并
 
-* [ ] Merge K Sorted Lists (medium)
+* [ ] 23. Merge K Sorted Lists (medium)
 
 * [ ] Kth Smallest Number in M Sorted Lists (Medium)
 
@@ -176,7 +176,7 @@
 
 * [ ] Smallest Number Range (Hard)
 
-] ### \14. Pattern: 0/1 Knapsack (Dynamic Programming)，0/1背包类型
+### 14. Pattern: 0/1 Knapsack (Dynamic Programming)，0/1背包类型
 
 * [ ] 0/1 Knapsack (medium)
 
