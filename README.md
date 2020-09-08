@@ -170,7 +170,7 @@
 
 * [x] 23. Merge K Sorted Lists (medium)
 
-* [ ] 378. Kth Smallest Number in M Sorted Lists (Medium)
+* [x] 378. Kth Smallest Number in M Sorted Lists (Medium)
 
 * [ ] Kth Smallest Number in a Sorted Matrix (Hard)
 
