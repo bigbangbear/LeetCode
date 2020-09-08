@@ -168,9 +168,9 @@
 
 ### 13. Pattern: K-way merge，多路归并
 
-* [ ] 23. Merge K Sorted Lists (medium)
+* [x] 23. Merge K Sorted Lists (medium)
 
-* [ ] Kth Smallest Number in M Sorted Lists (Medium)
+* [ ] 378. Kth Smallest Number in M Sorted Lists (Medium)
 
 * [ ] Kth Smallest Number in a Sorted Matrix (Hard)
 
