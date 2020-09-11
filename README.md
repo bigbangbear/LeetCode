@@ -170,15 +170,15 @@
 
 * [x] 23. Merge K Sorted Lists (medium)
 
-* [x] 378. Kth Smallest Number in M Sorted Lists (Medium)
+* [ ] Kth Smallest Number in M Sorted Lists (Medium)
 
-* [ ] Kth Smallest Number in a Sorted Matrix (Hard)
+* [x]  378. Kth Smallest Number in a Sorted Matrix (Hard)
 
-* [ ] Smallest Number Range (Hard)
+* [ ] 632. Smallest Number Range (Hard)
 
 ### 14. Pattern: 0/1 Knapsack (Dynamic Programming)，0/1背包类型
 
-* [ ] 0/1 Knapsack (medium)
+* [ ] 416. 0/1 Knapsack (medium)
 
 * [ ] Equal Subset Sum Partition (medium)
 
