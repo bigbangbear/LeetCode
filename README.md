@@ -178,13 +178,15 @@
 
 ### 14. Pattern: 0/1 Knapsack (Dynamic Programming)，0/1背包类型
 
-* [ ] 416. 0/1 Knapsack (medium)
+* [ ]  0/1 Knapsack (medium)
 
-* [ ] Equal Subset Sum Partition (medium)
+* [x] 416. Equal Subset Sum Partition (medium)
 
 * [ ] Subset Sum (medium)
 
 * [ ] Minimum Subset Sum Difference (hard)
+
+* [ ] 474. ones-and-zeroes
 
 ### 15. Pattern: Topological Sort (Graph)，拓扑排序类型
 
