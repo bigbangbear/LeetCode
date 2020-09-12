@@ -186,7 +186,7 @@
 
 * [ ] Minimum Subset Sum Difference (hard)
 
-* [ ] 474. ones-and-zeroes
+* [x] 474. ones-and-zeroes
 
 ### 15. Pattern: Topological Sort (Graph)，拓扑排序类型
 
