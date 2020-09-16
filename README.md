@@ -192,9 +192,9 @@
 
 * [ ] Topological Sort (medium)
 
-* [ ] Tasks Scheduling (medium)
+* [x] 207. Tasks Scheduling (medium)
 
-* [ ] Tasks Scheduling Order (medium)
+* [ ] 621. Tasks Scheduling Order (medium)
 
 * [ ] All Tasks Scheduling Orders (hard)
 
