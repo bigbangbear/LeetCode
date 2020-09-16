@@ -194,7 +194,7 @@
 
 * [x] 207. Tasks Scheduling (medium)
 
-* [ ] 621. Tasks Scheduling Order (medium)
+* [x] 621. Tasks Scheduling Order (medium)
 
 * [ ] All Tasks Scheduling Orders (hard)
 
