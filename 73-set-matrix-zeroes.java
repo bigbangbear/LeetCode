@@ -1,4 +1,8 @@
-/**
+class Solution {
+    public void setZeroes(int[][] matrix) {
+
+    }
+}/**
  * 题目：把二维数组中出现 0 的横竖都标记为0
  * 思路：先遍历记录下所有出现 0 的坐标，然后标记为 0
  */
