@@ -10,40 +10,41 @@
  */
 class Solution {
     public ListNode sortList(ListNode head) {
-        if (head == null) {
-            return null;
-        }
-        ListNode sort = head;
-        ListNode unsort = head.next;
-        sort.next = null;
-        while (unsort != null) {
-            ListNode current = unsort;
-            unsort = unsort.next;
 
-            boolean isInsert = false;
-            ListNode pre = null;
-            ListNode next = sort;
-            while (next != null) {
-                if (current.val <= next.val) {
-                    if (pre == null) {
-                        current.next = sort;
-                        sort = current;
-                    } else {
-                        pre.next = current;
-                        current.next = next;
-                    }
-                    isInsert = true;
-                    break;
-                } else {
-                    pre = next;
-                    next = next.next;
-                }
-            }
-            if (!isInsert) {
-                pre.next = current;
-                current.next = null;
-            }
+        if (head == null || head.next == null) {
+            return head;
         }
-        return sort;
+        ListNode fast = head.next;
+        ListNode slow = head;
+        while (fast != null && fast.next != null) {
+            fast = fast.next;
+            fast = fast.next;
+            slow = slow.next;
+        }
+        ListNode slowHead = slow.next;
+        slow.next = null;
+        return merge(sortList(head), sortList(slowHead));
+    }
+
+    private ListNode merge(ListNode first, ListNode second) {
+        ListNode head = new ListNode(0);
+        ListNode result = head;
+        while(first != null && second != null) {
+            if (first.val < second.val) {
+                head.next = first;
+                first = first.next;
+            }else {
+                head.next = second;
+                second = second.next;
+            }
+            head = head.next;
+        }
+        if (first != null) {
+            head.next = first;
+        }
+        if (second != null) {
+            head.next = second;
+        }
+        return result.next;
     }
 }
