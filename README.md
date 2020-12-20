@@ -20,13 +20,13 @@
 
 ### 2. Pattern: two points, 双指针类型
 
-* [x] Pair with Target Sum (easy)
+* [x] 494. Pair with Target Sum (easy)
 
-* [x] Remove Duplicates (easy)
+* [x] 26. Remove Duplicates (easy)
 
-* [x] Squaring a Sorted Array (easy)
+* [x] 977. Squaring a Sorted Array (easy)
 
-* [ ] 15. Triplet Sum to Zero (medium)
+* [x] 15. Triplet Sum to Zero (medium)
 
 * [x] 16. Triplet Sum Close to Target (medium)
 
@@ -34,7 +34,7 @@
 
 * [x] 713. Subarrays with Product Less than a Target (medium)
 
-* [ ] 75. Dutch National Flag Problem (medium)
+* [x] 75. Dutch National Flag Problem (medium)
 
 ### 3. Pattern: Fast & Slow pointers, 快慢指针类型
 
