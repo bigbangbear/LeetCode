@@ -1,5 +1,4 @@
-class Solution {
-    public double myPow(double x, int n) {
+public double myPow(double x, int n) {
         if (n == 0) {
             return 1;
         }
@@ -23,4 +22,4 @@ class Solution {
         double result = solution.myPow(2.0, 10);
         System.out.println(result);
     }
-}
+
