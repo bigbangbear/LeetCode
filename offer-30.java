@@ -1,13 +1,6 @@
-/**
- * Your MinStack object will be instantiated and called as such:
- * MinStack obj = new MinStack();
- * obj.push(x);
- * obj.pop();
- * int param_3 = obj.top();
- * int param_4 = obj.getMin();
- */
 class MinStack {
 
+    
     private Deque<Integer> stack = new ArrayDeque<Integer>();
     private Deque<Integer> min = new ArrayDeque<Integer>();
 
@@ -26,9 +19,9 @@ class MinStack {
         if (stack.size() == 0) {
             return;
         }
-        if (stack.pop() == min.peek()) {
-            min.pop();
-        }
+      if (stack.pop().equals(min.peek())) {
+                min.pop();
+            }
     }
 
     public int top() {
@@ -36,10 +29,18 @@ class MinStack {
 
     }
 
-    public int getMin() {
+    public int min() {
         return min.peek();
     }
 
+
 }
 
-
+/**
+ * Your MinStack object will be instantiated and called as such:
+ * MinStack obj = new MinStack();
+ * obj.push(x);
+ * obj.pop();
+ * int param_3 = obj.top();
+ * int param_4 = obj.min();
+ */

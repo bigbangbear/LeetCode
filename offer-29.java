@@ -10,9 +10,9 @@ public class Solution {
         int time = scanTimes(h, w);
         int index = 0;
         for (int i = 0; i < time; i++) {
-            // 开始的位置  (i,i)
             int maxW = w - i - 1;
             int maxH = h - i - 1;
+            // 不形成环
             if (maxH - i == 0) {
                 for (int j=i; j<=maxW; j++) {
                     result[index] = matrix[i][j];
@@ -27,6 +27,8 @@ public class Solution {
                 }
                 break;
             }
+
+            // 形成环
             // 上
             for (int j=i; j < maxW; j++) {
                 result[index] = matrix[i][j];
