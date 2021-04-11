@@ -47,3 +47,41 @@ class Solution {
         return preOrder(root, p, q, new ArrayList<>()); 
     }
 }
+
+class Solution {
+
+    private Map<TreeNode, TreeNode> parent = new HashMap<>();
+    private Map<TreeNode, Boolean> visited = new HashMap<>();
+
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        dfs(root);
+        while (p != null) {
+            visited.put(p, true);
+            p = parent.get(p);
+        }
+        while (q != null) {
+            if (visited.containsKey(q)) {
+                return q;
+            }
+            q = parent.get(q);
+        }
+        return null;
+    }
+
+    private void dfs(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        if (root.left != null) {
+            parent.put(root.left, root);
+            dfs(root.left);
+        }
+        if (root.right != null) {
+            parent.put(root.right, root);
+            dfs(root.right);
+        }
+    }
+
+}
+
+
